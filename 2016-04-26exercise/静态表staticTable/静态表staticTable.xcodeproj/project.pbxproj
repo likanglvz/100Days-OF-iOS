@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FEBA11D21CCF37D700FEF570 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBA11D11CCF37D700FEF570 /* main.m */; };
+		FEBA11D51CCF37D700FEF570 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBA11D41CCF37D700FEF570 /* AppDelegate.m */; };
+		FEBA11D81CCF37D700FEF570 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBA11D71CCF37D700FEF570 /* ViewController.m */; };
+		FEBA11DB1CCF37D700FEF570 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEBA11D91CCF37D700FEF570 /* Main.storyboard */; };
+		FEBA11DD1CCF37D700FEF570 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEBA11DC1CCF37D700FEF570 /* Assets.xcassets */; };
+		FEBA11E01CCF37D700FEF570 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEBA11DE1CCF37D700FEF570 /* LaunchScreen.storyboard */; };
+		FEBA11EB1CCF37D700FEF570 /* ___staticTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBA11EA1CCF37D700FEF570 /* ___staticTableTests.m */; };
+		FEBA11F61CCF37D700FEF570 /* ___staticTableUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBA11F51CCF37D700FEF570 /* ___staticTableUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FEBA11E71CCF37D700FEF570 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEBA11C51CCF37D700FEF570 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEBA11CC1CCF37D700FEF570;
+			remoteInfo = "静态表staticTable";
+		};
+		FEBA11F21CCF37D700FEF570 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEBA11C51CCF37D700FEF570 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEBA11CC1CCF37D700FEF570;
+			remoteInfo = "静态表staticTable";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FEBA11CD1CCF37D700FEF570 /* 静态表staticTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "静态表staticTable.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEBA11D11CCF37D700FEF570 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FEBA11D31CCF37D700FEF570 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FEBA11D41CCF37D700FEF570 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FEBA11D61CCF37D700FEF570 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FEBA11D71CCF37D700FEF570 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FEBA11DA1CCF37D700FEF570 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FEBA11DC1CCF37D700FEF570 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEBA11DF1CCF37D700FEF570 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FEBA11E11CCF37D700FEF570 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEBA11E61CCF37D700FEF570 /* 静态表staticTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "静态表staticTableTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEBA11EA1CCF37D700FEF570 /* ___staticTableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___staticTableTests.m"; sourceTree = "<group>"; };
+		FEBA11EC1CCF37D700FEF570 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEBA11F11CCF37D700FEF570 /* 静态表staticTableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "静态表staticTableUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEBA11F51CCF37D700FEF570 /* ___staticTableUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___staticTableUITests.m"; sourceTree = "<group>"; };
+		FEBA11F71CCF37D700FEF570 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEBA11CA1CCF37D700FEF570 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEBA11E31CCF37D700FEF570 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEBA11EE1CCF37D700FEF570 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEBA11C41CCF37D700FEF570 = {
+			isa = PBXGroup;
+			children = (
+				FEBA11CF1CCF37D700FEF570 /* 静态表staticTable */,
+				FEBA11E91CCF37D700FEF570 /* 静态表staticTableTests */,
+				FEBA11F41CCF37D700FEF570 /* 静态表staticTableUITests */,
+				FEBA11CE1CCF37D700FEF570 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEBA11CE1CCF37D700FEF570 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEBA11CD1CCF37D700FEF570 /* 静态表staticTable.app */,
+				FEBA11E61CCF37D700FEF570 /* 静态表staticTableTests.xctest */,
+				FEBA11F11CCF37D700FEF570 /* 静态表staticTableUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEBA11CF1CCF37D700FEF570 /* 静态表staticTable */ = {
+			isa = PBXGroup;
+			children = (
+				FEBA11D31CCF37D700FEF570 /* AppDelegate.h */,
+				FEBA11D41CCF37D700FEF570 /* AppDelegate.m */,
+				FEBA11D61CCF37D700FEF570 /* ViewController.h */,
+				FEBA11D71CCF37D700FEF570 /* ViewController.m */,
+				FEBA11D91CCF37D700FEF570 /* Main.storyboard */,
+				FEBA11DC1CCF37D700FEF570 /* Assets.xcassets */,
+				FEBA11DE1CCF37D700FEF570 /* LaunchScreen.storyboard */,
+				FEBA11E11CCF37D700FEF570 /* Info.plist */,
+				FEBA11D01CCF37D700FEF570 /* Supporting Files */,
+			);
+			path = "静态表staticTable";
+			sourceTree = "<group>";
+		};
+		FEBA11D01CCF37D700FEF570 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEBA11D11CCF37D700FEF570 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FEBA11E91CCF37D700FEF570 /* 静态表staticTableTests */ = {
+			isa = PBXGroup;
+			children = (
+				FEBA11EA1CCF37D700FEF570 /* ___staticTableTests.m */,
+				FEBA11EC1CCF37D700FEF570 /* Info.plist */,
+			);
+			path = "静态表staticTableTests";
+			sourceTree = "<group>";
+		};
+		FEBA11F41CCF37D700FEF570 /* 静态表staticTableUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FEBA11F51CCF37D700FEF570 /* ___staticTableUITests.m */,
+				FEBA11F71CCF37D700FEF570 /* Info.plist */,
+			);
+			path = "静态表staticTableUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEBA11CC1CCF37D700FEF570 /* 静态表staticTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEBA11FA1CCF37D700FEF570 /* Build configuration list for PBXNativeTarget "静态表staticTable" */;
+			buildPhases = (
+				FEBA11C91CCF37D700FEF570 /* Sources */,
+				FEBA11CA1CCF37D700FEF570 /* Frameworks */,
+				FEBA11CB1CCF37D700FEF570 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "静态表staticTable";
+			productName = "静态表staticTable";
+			productReference = FEBA11CD1CCF37D700FEF570 /* 静态表staticTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FEBA11E51CCF37D700FEF570 /* 静态表staticTableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEBA11FD1CCF37D700FEF570 /* Build configuration list for PBXNativeTarget "静态表staticTableTests" */;
+			buildPhases = (
+				FEBA11E21CCF37D700FEF570 /* Sources */,
+				FEBA11E31CCF37D700FEF570 /* Frameworks */,
+				FEBA11E41CCF37D700FEF570 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEBA11E81CCF37D700FEF570 /* PBXTargetDependency */,
+			);
+			name = "静态表staticTableTests";
+			productName = "静态表staticTableTests";
+			productReference = FEBA11E61CCF37D700FEF570 /* 静态表staticTableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FEBA11F01CCF37D700FEF570 /* 静态表staticTableUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEBA12001CCF37D700FEF570 /* Build configuration list for PBXNativeTarget "静态表staticTableUITests" */;
+			buildPhases = (
+				FEBA11ED1CCF37D700FEF570 /* Sources */,
+				FEBA11EE1CCF37D700FEF570 /* Frameworks */,
+				FEBA11EF1CCF37D700FEF570 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEBA11F31CCF37D700FEF570 /* PBXTargetDependency */,
+			);
+			name = "静态表staticTableUITests";
+			productName = "静态表staticTableUITests";
+			productReference = FEBA11F11CCF37D700FEF570 /* 静态表staticTableUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEBA11C51CCF37D700FEF570 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "李康";
+				TargetAttributes = {
+					FEBA11CC1CCF37D700FEF570 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					FEBA11E51CCF37D700FEF570 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = FEBA11CC1CCF37D700FEF570;
+					};
+					FEBA11F01CCF37D700FEF570 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = FEBA11CC1CCF37D700FEF570;
+					};
+				};
+			};
+			buildConfigurationList = FEBA11C81CCF37D700FEF570 /* Build configuration list for PBXProject "静态表staticTable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEBA11C41CCF37D700FEF570;
+			productRefGroup = FEBA11CE1CCF37D700FEF570 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEBA11CC1CCF37D700FEF570 /* 静态表staticTable */,
+				FEBA11E51CCF37D700FEF570 /* 静态表staticTableTests */,
+				FEBA11F01CCF37D700FEF570 /* 静态表staticTableUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEBA11CB1CCF37D700FEF570 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEBA11E01CCF37D700FEF570 /* LaunchScreen.storyboard in Resources */,
+				FEBA11DD1CCF37D700FEF570 /* Assets.xcassets in Resources */,
+				FEBA11DB1CCF37D700FEF570 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEBA11E41CCF37D700FEF570 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEBA11EF1CCF37D700FEF570 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEBA11C91CCF37D700FEF570 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEBA11D81CCF37D700FEF570 /* ViewController.m in Sources */,
+				FEBA11D51CCF37D700FEF570 /* AppDelegate.m in Sources */,
+				FEBA11D21CCF37D700FEF570 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEBA11E21CCF37D700FEF570 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEBA11EB1CCF37D700FEF570 /* ___staticTableTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEBA11ED1CCF37D700FEF570 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEBA11F61CCF37D700FEF570 /* ___staticTableUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FEBA11E81CCF37D700FEF570 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEBA11CC1CCF37D700FEF570 /* 静态表staticTable */;
+			targetProxy = FEBA11E71CCF37D700FEF570 /* PBXContainerItemProxy */;
+		};
+		FEBA11F31CCF37D700FEF570 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEBA11CC1CCF37D700FEF570 /* 静态表staticTable */;
+			targetProxy = FEBA11F21CCF37D700FEF570 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FEBA11D91CCF37D700FEF570 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEBA11DA1CCF37D700FEF570 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FEBA11DE1CCF37D700FEF570 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEBA11DF1CCF37D700FEF570 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEBA11F81CCF37D700FEF570 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FEBA11F91CCF37D700FEF570 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEBA11FB1CCF37D700FEF570 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "静态表staticTable/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "c.---staticTable";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FEBA11FC1CCF37D700FEF570 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "静态表staticTable/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "c.---staticTable";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FEBA11FE1CCF37D700FEF570 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "静态表staticTableTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "c.---staticTableTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/静态表staticTable.app/静态表staticTable";
+			};
+			name = Debug;
+		};
+		FEBA11FF1CCF37D700FEF570 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "静态表staticTableTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "c.---staticTableTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/静态表staticTable.app/静态表staticTable";
+			};
+			name = Release;
+		};
+		FEBA12011CCF37D700FEF570 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "静态表staticTableUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "c.---staticTableUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "静态表staticTable";
+			};
+			name = Debug;
+		};
+		FEBA12021CCF37D700FEF570 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "静态表staticTableUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "c.---staticTableUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "静态表staticTable";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEBA11C81CCF37D700FEF570 /* Build configuration list for PBXProject "静态表staticTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEBA11F81CCF37D700FEF570 /* Debug */,
+				FEBA11F91CCF37D700FEF570 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEBA11FA1CCF37D700FEF570 /* Build configuration list for PBXNativeTarget "静态表staticTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEBA11FB1CCF37D700FEF570 /* Debug */,
+				FEBA11FC1CCF37D700FEF570 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FEBA11FD1CCF37D700FEF570 /* Build configuration list for PBXNativeTarget "静态表staticTableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEBA11FE1CCF37D700FEF570 /* Debug */,
+				FEBA11FF1CCF37D700FEF570 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FEBA12001CCF37D700FEF570 /* Build configuration list for PBXNativeTarget "静态表staticTableUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEBA12011CCF37D700FEF570 /* Debug */,
+				FEBA12021CCF37D700FEF570 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEBA11C51CCF37D700FEF570 /* Project object */;
+}
