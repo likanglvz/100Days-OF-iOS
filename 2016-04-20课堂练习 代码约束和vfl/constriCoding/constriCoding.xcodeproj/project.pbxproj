@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FEBA0D3F1CC7246F00FEF570 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBA0D3E1CC7246F00FEF570 /* main.m */; };
+		FEBA0D421CC7246F00FEF570 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBA0D411CC7246F00FEF570 /* AppDelegate.m */; };
+		FEBA0D451CC7246F00FEF570 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBA0D441CC7246F00FEF570 /* ViewController.m */; };
+		FEBA0D481CC7246F00FEF570 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEBA0D461CC7246F00FEF570 /* Main.storyboard */; };
+		FEBA0D4A1CC7246F00FEF570 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEBA0D491CC7246F00FEF570 /* Assets.xcassets */; };
+		FEBA0D4D1CC7246F00FEF570 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEBA0D4B1CC7246F00FEF570 /* LaunchScreen.storyboard */; };
+		FEBA0D581CC7246F00FEF570 /* constriCodingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBA0D571CC7246F00FEF570 /* constriCodingTests.m */; };
+		FEBA0D631CC7246F00FEF570 /* constriCodingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEBA0D621CC7246F00FEF570 /* constriCodingUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FEBA0D541CC7246F00FEF570 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEBA0D321CC7246F00FEF570 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEBA0D391CC7246F00FEF570;
+			remoteInfo = constriCoding;
+		};
+		FEBA0D5F1CC7246F00FEF570 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEBA0D321CC7246F00FEF570 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEBA0D391CC7246F00FEF570;
+			remoteInfo = constriCoding;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FEBA0D3A1CC7246F00FEF570 /* constriCoding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = constriCoding.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEBA0D3E1CC7246F00FEF570 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FEBA0D401CC7246F00FEF570 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FEBA0D411CC7246F00FEF570 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FEBA0D431CC7246F00FEF570 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FEBA0D441CC7246F00FEF570 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FEBA0D471CC7246F00FEF570 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FEBA0D491CC7246F00FEF570 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEBA0D4C1CC7246F00FEF570 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FEBA0D4E1CC7246F00FEF570 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEBA0D531CC7246F00FEF570 /* constriCodingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = constriCodingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEBA0D571CC7246F00FEF570 /* constriCodingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = constriCodingTests.m; sourceTree = "<group>"; };
+		FEBA0D591CC7246F00FEF570 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEBA0D5E1CC7246F00FEF570 /* constriCodingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = constriCodingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEBA0D621CC7246F00FEF570 /* constriCodingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = constriCodingUITests.m; sourceTree = "<group>"; };
+		FEBA0D641CC7246F00FEF570 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEBA0D371CC7246F00FEF570 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEBA0D501CC7246F00FEF570 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEBA0D5B1CC7246F00FEF570 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEBA0D311CC7246F00FEF570 = {
+			isa = PBXGroup;
+			children = (
+				FEBA0D3C1CC7246F00FEF570 /* constriCoding */,
+				FEBA0D561CC7246F00FEF570 /* constriCodingTests */,
+				FEBA0D611CC7246F00FEF570 /* constriCodingUITests */,
+				FEBA0D3B1CC7246F00FEF570 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEBA0D3B1CC7246F00FEF570 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEBA0D3A1CC7246F00FEF570 /* constriCoding.app */,
+				FEBA0D531CC7246F00FEF570 /* constriCodingTests.xctest */,
+				FEBA0D5E1CC7246F00FEF570 /* constriCodingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEBA0D3C1CC7246F00FEF570 /* constriCoding */ = {
+			isa = PBXGroup;
+			children = (
+				FEBA0D401CC7246F00FEF570 /* AppDelegate.h */,
+				FEBA0D411CC7246F00FEF570 /* AppDelegate.m */,
+				FEBA0D431CC7246F00FEF570 /* ViewController.h */,
+				FEBA0D441CC7246F00FEF570 /* ViewController.m */,
+				FEBA0D461CC7246F00FEF570 /* Main.storyboard */,
+				FEBA0D491CC7246F00FEF570 /* Assets.xcassets */,
+				FEBA0D4B1CC7246F00FEF570 /* LaunchScreen.storyboard */,
+				FEBA0D4E1CC7246F00FEF570 /* Info.plist */,
+				FEBA0D3D1CC7246F00FEF570 /* Supporting Files */,
+			);
+			path = constriCoding;
+			sourceTree = "<group>";
+		};
+		FEBA0D3D1CC7246F00FEF570 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEBA0D3E1CC7246F00FEF570 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FEBA0D561CC7246F00FEF570 /* constriCodingTests */ = {
+			isa = PBXGroup;
+			children = (
+				FEBA0D571CC7246F00FEF570 /* constriCodingTests.m */,
+				FEBA0D591CC7246F00FEF570 /* Info.plist */,
+			);
+			path = constriCodingTests;
+			sourceTree = "<group>";
+		};
+		FEBA0D611CC7246F00FEF570 /* constriCodingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FEBA0D621CC7246F00FEF570 /* constriCodingUITests.m */,
+				FEBA0D641CC7246F00FEF570 /* Info.plist */,
+			);
+			path = constriCodingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEBA0D391CC7246F00FEF570 /* constriCoding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEBA0D671CC7246F00FEF570 /* Build configuration list for PBXNativeTarget "constriCoding" */;
+			buildPhases = (
+				FEBA0D361CC7246F00FEF570 /* Sources */,
+				FEBA0D371CC7246F00FEF570 /* Frameworks */,
+				FEBA0D381CC7246F00FEF570 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = constriCoding;
+			productName = constriCoding;
+			productReference = FEBA0D3A1CC7246F00FEF570 /* constriCoding.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FEBA0D521CC7246F00FEF570 /* constriCodingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEBA0D6A1CC7246F00FEF570 /* Build configuration list for PBXNativeTarget "constriCodingTests" */;
+			buildPhases = (
+				FEBA0D4F1CC7246F00FEF570 /* Sources */,
+				FEBA0D501CC7246F00FEF570 /* Frameworks */,
+				FEBA0D511CC7246F00FEF570 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEBA0D551CC7246F00FEF570 /* PBXTargetDependency */,
+			);
+			name = constriCodingTests;
+			productName = constriCodingTests;
+			productReference = FEBA0D531CC7246F00FEF570 /* constriCodingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FEBA0D5D1CC7246F00FEF570 /* constriCodingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEBA0D6D1CC7246F00FEF570 /* Build configuration list for PBXNativeTarget "constriCodingUITests" */;
+			buildPhases = (
+				FEBA0D5A1CC7246F00FEF570 /* Sources */,
+				FEBA0D5B1CC7246F00FEF570 /* Frameworks */,
+				FEBA0D5C1CC7246F00FEF570 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEBA0D601CC7246F00FEF570 /* PBXTargetDependency */,
+			);
+			name = constriCodingUITests;
+			productName = constriCodingUITests;
+			productReference = FEBA0D5E1CC7246F00FEF570 /* constriCodingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEBA0D321CC7246F00FEF570 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "李康";
+				TargetAttributes = {
+					FEBA0D391CC7246F00FEF570 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					FEBA0D521CC7246F00FEF570 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = FEBA0D391CC7246F00FEF570;
+					};
+					FEBA0D5D1CC7246F00FEF570 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = FEBA0D391CC7246F00FEF570;
+					};
+				};
+			};
+			buildConfigurationList = FEBA0D351CC7246F00FEF570 /* Build configuration list for PBXProject "constriCoding" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEBA0D311CC7246F00FEF570;
+			productRefGroup = FEBA0D3B1CC7246F00FEF570 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEBA0D391CC7246F00FEF570 /* constriCoding */,
+				FEBA0D521CC7246F00FEF570 /* constriCodingTests */,
+				FEBA0D5D1CC7246F00FEF570 /* constriCodingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEBA0D381CC7246F00FEF570 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEBA0D4D1CC7246F00FEF570 /* LaunchScreen.storyboard in Resources */,
+				FEBA0D4A1CC7246F00FEF570 /* Assets.xcassets in Resources */,
+				FEBA0D481CC7246F00FEF570 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEBA0D511CC7246F00FEF570 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEBA0D5C1CC7246F00FEF570 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEBA0D361CC7246F00FEF570 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEBA0D451CC7246F00FEF570 /* ViewController.m in Sources */,
+				FEBA0D421CC7246F00FEF570 /* AppDelegate.m in Sources */,
+				FEBA0D3F1CC7246F00FEF570 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEBA0D4F1CC7246F00FEF570 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEBA0D581CC7246F00FEF570 /* constriCodingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEBA0D5A1CC7246F00FEF570 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEBA0D631CC7246F00FEF570 /* constriCodingUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FEBA0D551CC7246F00FEF570 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEBA0D391CC7246F00FEF570 /* constriCoding */;
+			targetProxy = FEBA0D541CC7246F00FEF570 /* PBXContainerItemProxy */;
+		};
+		FEBA0D601CC7246F00FEF570 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEBA0D391CC7246F00FEF570 /* constriCoding */;
+			targetProxy = FEBA0D5F1CC7246F00FEF570 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FEBA0D461CC7246F00FEF570 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEBA0D471CC7246F00FEF570 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FEBA0D4B1CC7246F00FEF570 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEBA0D4C1CC7246F00FEF570 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEBA0D651CC7246F00FEF570 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FEBA0D661CC7246F00FEF570 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEBA0D681CC7246F00FEF570 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = constriCoding/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = c.constriCoding;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FEBA0D691CC7246F00FEF570 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = constriCoding/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = c.constriCoding;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FEBA0D6B1CC7246F00FEF570 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = constriCodingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = c.constriCodingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/constriCoding.app/constriCoding";
+			};
+			name = Debug;
+		};
+		FEBA0D6C1CC7246F00FEF570 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = constriCodingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = c.constriCodingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/constriCoding.app/constriCoding";
+			};
+			name = Release;
+		};
+		FEBA0D6E1CC7246F00FEF570 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = constriCodingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = c.constriCodingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = constriCoding;
+			};
+			name = Debug;
+		};
+		FEBA0D6F1CC7246F00FEF570 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = constriCodingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = c.constriCodingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = constriCoding;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEBA0D351CC7246F00FEF570 /* Build configuration list for PBXProject "constriCoding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEBA0D651CC7246F00FEF570 /* Debug */,
+				FEBA0D661CC7246F00FEF570 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEBA0D671CC7246F00FEF570 /* Build configuration list for PBXNativeTarget "constriCoding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEBA0D681CC7246F00FEF570 /* Debug */,
+				FEBA0D691CC7246F00FEF570 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FEBA0D6A1CC7246F00FEF570 /* Build configuration list for PBXNativeTarget "constriCodingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEBA0D6B1CC7246F00FEF570 /* Debug */,
+				FEBA0D6C1CC7246F00FEF570 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FEBA0D6D1CC7246F00FEF570 /* Build configuration list for PBXNativeTarget "constriCodingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEBA0D6E1CC7246F00FEF570 /* Debug */,
+				FEBA0D6F1CC7246F00FEF570 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEBA0D321CC7246F00FEF570 /* Project object */;
+}
