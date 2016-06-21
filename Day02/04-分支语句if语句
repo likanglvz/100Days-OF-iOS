@@ -1,0 +1,190 @@
+/*  单分支语句：if
+   语法：
+ 格式1：if(条件){  }else {  }
+ 格式2：if(条件){  }else if(条件){   } else{   }
+ 格式3：if(条件）{  }
+*/
+#include<stdio.h>
+int main1(){
+    int count;
+    printf("请输入班级的人数:\n");
+    scanf("%d",&count);
+  /* 格式if...else
+   if (count>=20) {
+        printf("开班\n");
+    }else{
+        
+        printf("人数不足无法开班\n");
+    }
+    */
+  /*  //if(){} else if(){} else{}
+    if (count++>11) 
+        printf("count=%d\n",count);
+    
+    else if(++count){
+        printf("count=%d\n",count);
+    }else
+    {
+        printf("C\n");
+    }
+   */
+/* //作用域：a变量的作用域{}里面
+    if (count>8) {
+        int a=5;
+    }
+    printf("a=%d\n",a);
+ */
+//&&
+    int a,b;
+    a=6;
+    b=9;
+  /*  if (a&&b) {
+        printf("A\n");
+    }
+ */
+    //00000110
+    //00001001
+  //&     000010
+    
+  /*  if (a&b) {
+        printf("%d\n",a&b);
+    }
+   */
+    if (a++&&b++) {
+        printf("a=%d,b=%d\n",a,b);
+    }
+    return 0;
+}
+/*输入一个整数day，代表星期几，根据打印输出对应的星期几*/
+
+//1---星期一
+int main2(){
+    int day;
+    //提示输入一个整数
+    printf("请输入一个整数:\n");
+    //输入一个整数
+    scanf("%d",&day);
+   /* //性能最差
+    if (1==day) {
+        printf("星期一\n");
+    }
+    if (2==day) {
+        printf("星期二\n");
+    }
+    if (3==day) {
+        printf("星期三\n");
+    }
+    if (4==day) {
+        printf("星期四\n");
+    }
+    if (5==day) {
+        printf("星期五\n");
+    }
+    if (6==day) {
+        printf("星期六\n");
+    }
+    if (7==day) {
+        printf("星期日\n");
+    }
+    */
+    if (1==day) {
+        printf("星期一\n");
+    }else if(2==day){
+        printf("星期二\n");
+    }else if(3==day){
+        printf("星期三\n");
+    }else if(4==day){
+        printf("星期四\n");
+    }else if(5==day){
+        printf("星期五\n");
+    }else if(6==day){
+        printf("星期六\n");
+    }else if(7==day){
+        printf("星期日\n");
+    }else{
+        printf("输入错误\n");
+    }
+    return 0;
+}
+
+ /*输一个整数代表月份，根据月份输出对应的季节
+  春季：3，4，5
+  夏季：6，7，8
+  秋季：9，10，11
+  冬季：12，1，2
+  */
+
+int main3(){
+    int month;
+    //提示输入一个月份
+    printf("请输入一个月份\n");
+    //
+    scanf("%d",&month);
+    if (3==month||4==month||5==month) {
+        printf("春季\n");
+    }else if(6==month||7==month||8==month){
+        printf("夏季\n");
+    }else if(9==month||10==month||11==month){
+        printf("秋季\n");
+    }else if(12==month||1==month||2==month){
+        printf("冬季\n");
+    }else{
+        printf("输入错误\n");
+    }
+
+    return 0;
+}
+ 
+/*输入一个整数代表分数，根据分数输出等级(A-E)
+ A:90-100
+ B:80-89
+ C:70-79
+ D:60-69
+ E:0-59
+ */
+int main(){
+    int score;
+    //提示输入分数
+    printf("请输入考试的分数:\n");
+    //输入分数
+    scanf("%d",&score);
+   /* //性能中等
+    if (score>=90&&score<=100) {
+        printf("A\n");
+    }else if(score>=80&&score<=89){
+        printf("B\n");
+    }else if(score>=70&&score<=79){
+        printf("C\n");
+    }else if(score>=60&&score<=69){
+        printf("D\n");
+    }else if(score>=0&&score<=59){
+        printf("E\n");
+    }
+    */
+    if (score>=90&&score<=100) {
+        printf("A\n");
+    }else if(score>=80){
+        printf("B\n");
+    }else if(score>=70){
+        printf("C\n");
+    }else if(score>=60){
+        printf("D\n");
+    }else if(score>=0){
+        printf("E\n");
+    }    
+        return 0;
+}
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
