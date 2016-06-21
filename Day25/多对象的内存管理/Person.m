@@ -1,0 +1,32 @@
+//
+//  Person.m
+//  多对象的内存管理
+//
+//  Created by 李康 on 16/3/28.
+//  Copyright © 2016年 李康. All rights reserved.
+//
+
+#import "Person.h"
+
+@implementation Person
+-(void)setDog:(Dog*)dog
+{
+//    _dog = dog;
+    /*这种情况下，如果同一只狗被传入多次，会导致计数连续增加*/
+    if (_dog!=dog) {
+        [_dog release];
+        _dog = [dog retain];
+    }
+    
+}
+-(Dog *)dog
+{
+    return _dog;
+}
+-(void)dealloc
+{
+    NSLog(@"人挂掉前先把计数为%lu狗吃了",[_dog retainCount]);
+    [_dog release];
+    [super dealloc];
+}
+@end

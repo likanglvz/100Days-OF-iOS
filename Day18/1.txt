@@ -1,0 +1,47 @@
+include与import的特点：
+相同点：都是文件包含，也就是copy一份被包含文件内容到当前文件
+不同点：include不能很好的处理文件被反复包含，要用预编译命令才能解决，但import可以直接避免文件被反复包含
+
+
+NSLog跟printf区别：
+1.NSLog接收的是oc字符串作为参数，printf接收c字符串作参数，
+2.NSLog会自动换行，printf要换行必须加\n;
+3.printf的使用要include <stdio.h>,但NSLog是在foundation.h中包含
+
+对于oc中引用其他框架的内容，在编译并链接时，要用下面方式
+cc -c test1//编译
+cc test1.o -framework foundation //链接
+或者编译和链接合到一起
+cc test1.m -framework foundation
+
+BOOL型变量，我们一般都赋值为NO(0)或YES（1）;
+
+多文件联合编译并链接
+cc first.m second.m -framework foundation
+
+
+一个类中的成员变量如果没有给赋值，则默认值为0，NULL,nil,NO;
+
+
+类空间中存放的是方法列表
+对象空间中存放的是成员变量，还有一个特殊的成员变量是*isa;
+
+NSLog 不能正常输出c字符串（char *）,可以用NSString类型的替换
+
+
+对象方法与函数的区别：
+1.对象方法以"-"开头
+2.对象方法必须在interface和end之间声明，在implementation和end之间实现
+3.对象方法只能由对象调用，归对象所有
+4.函数可在implementationt end之间定义，也可在外面定义，但不可在interface和end之间实现
+
+
+作业1：设置一个计算器类，有一个成员变量，可以实现对数据累加，累减、积除运算，清零
+作业2：产生一个类，其功能如下：
+	1.可以获取pi（3.1415926）的值
+	2.可以计算一个数的平方
+	3.可以计算两个数的和
+作业3：设计一个Student类，要求如下：
+	1.有成员变量name,score;
+	2.可以实现计算两个student对象成绩之差的方法，方法声明如下
+	-(int)compareScoreWithOther:(Student*)other;

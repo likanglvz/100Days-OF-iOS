@@ -1,0 +1,39 @@
+//
+//  main.m
+//  属性的使用
+//
+//  Created by 李连宇 on 16/3/22.
+//  Copyright © 2016年 itany. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+#import "Person.h"
+#import "Car.h"
+#import "Dog.h"
+#import "Cat.h"
+int main(int argc, const char * argv[]) {
+#if 0
+    Person *p = [Person new];
+    p.age = 30;
+    p.height = 180;
+    p.name = @"小王";
+    
+    [p test];
+    NSLog(@"name=====%@",p.name);
+    
+    Car *c = [Car new];
+    c.speed = 100;
+    c.wheels = 4;
+    
+    [c test];
+    
+    Dog *d = [Dog new];
+    d.age = 23;
+    [d test];
+#endif
+    Cat *c = [Cat new];
+//    c.age = -2;
+    [c setAge:-2];
+    [c test];
+    return 0;
+}

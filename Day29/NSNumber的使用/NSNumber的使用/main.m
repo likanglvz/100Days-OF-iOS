@@ -1,0 +1,21 @@
+//
+//  main.m
+//  NSNumber的使用
+//
+//  Created by 李康 on 16/4/1.
+//  Copyright © 2016年 李康. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+int main(int argc, const char * argv[]) {
+    int a = 10;
+    NSNumber *n1 = [NSNumber numberWithInt:a];
+    n1 = @10;
+    n1 = @(a);
+    int m = n1.intValue;
+    
+    NSString *s1 = n1.stringValue;
+    NSLog(@"m=%d,s1=%@",m,s1);
+    return 0;
+}

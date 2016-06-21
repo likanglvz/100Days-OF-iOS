@@ -1,0 +1,11 @@
+对象工厂的实现，实现各种图形对象的产生
+1.图形协议：
+-(void)draw；
+-(id)initWithName:
+(NSString*)name;
+2.实现三个类：Line,Square,Circle,都遵守上面协议，都有属性叫name;
+3.工厂的实现
+通过一个类方法中给出的参数可以产生上面三种类的实例对象中的任意一种,
+在该方法中，要判断所产生出的对象是否遵守1中的协议。
+在该方法中要用到NSMutableDictionary:value是class对象，key是方法的参数，
++(id)getShape:(NSString*)shapeName

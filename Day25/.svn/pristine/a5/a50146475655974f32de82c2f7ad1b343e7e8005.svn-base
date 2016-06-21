@@ -1,0 +1,43 @@
+load方法：
+当程序启动时，就会加载一次项目中所有的类，在类加载完毕后就会自动调用一次+(void)load方法
+
++(void)initialize方法：
+当程序在第一次使用这个类时候，就会调用一次initialize方法
+
+当父类和子类都重写了load或initialize方法时，先调用父类的load再调用子类的load;同一个load方法只能被执行一次
+
+ 当在分类中覆盖了load和initialize时，主类中的load方法不会被覆盖，但initialize方法会被分类覆盖
+
+可以用三种方式产生类对象：
+1.通过实例对象的class属性获取
+2.通过类对象的class属性获取
+3.通过NSClassFromString(@"Student")获取
+
+SEL类型数据的执行过程：
+1.把方法包装成SEL类型数据；
+2.根据SEL数据找到其对应方法的地址；
+3.根据方法的地址调用方法
+
+NSSelectorFromString(@"test7:")把字符串转为SEL类型变量
+[p respondsToSelector:s]判断对象p是否能对SEL类型变量作出响应
+
+==========================================
+给任何一个空对象发送任何消息都是合法的，
+
+内存管理
+当对象被alloc出来并赋值给一个指针对象时，计数会自动加1
+retain会使一个对象计数加1，返回对象本身，self
+release:会使对象引用计数减一
+
+非arc下：
+1.只要调用alloc方法并赋值给一个指针对象，则必须调用release
+2.只要调用了retain方法，则必须有一个release方法与之对应
+3.retain:计数加1，返回对象本身
+	release:引用计数减一
+	retainCount:获取当前的引用计数
+	dealloc:对象被回收前会调用该方法，
+4.僵尸对象：所占内存已经被回收，则该对象就是僵尸对象
+5.野指针：指向僵尸对象的指针叫野指针。
+6.空指针：没有指向任何内存的指针，其值为nil,NULL
+
+内存管理原则：谁alloc谁release,谁retain谁release;

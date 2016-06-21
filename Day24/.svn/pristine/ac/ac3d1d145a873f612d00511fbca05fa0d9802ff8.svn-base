@@ -1,0 +1,16 @@
+//
+//  Instrument.m
+//  音乐家演出
+//
+//  Created by 李连宇 on 16/3/25.
+//  Copyright © 2016年 itany. All rights reserved.
+//
+
+#import "Instrument.h"
+
+@implementation Instrument
+-(void)play
+{
+    NSLog(@"这是乐器抽象类，什么功能都没有");
+}
+@end
