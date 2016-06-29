@@ -1,0 +1,27 @@
+//
+//  main.m
+//  字典的使用
+//
+//  Created by 李连宇 on 16/4/6.
+//  Copyright © 2016年 itany. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+int main(int argc, const char * argv[]) {
+    NSDictionary *emp = [NSDictionary dictionaryWithObjectsAndKeys:@"曹操",@"1",@"孙权",@"2", nil];
+    /*取出全部values*/
+    NSArray *values = [emp allValues];
+    for (id tmp in values) {
+        NSLog(@"%@",tmp);
+    }
+    /*全部keys*/
+    NSArray *keys = [emp allKeys];
+    for (id tmp in keys) {
+        NSLog(@"%@",tmp);
+    }
+    
+    NSString *s = [emp objectForKey:@"2"];
+    NSLog(@"%@",s);
+    return 0;
+}

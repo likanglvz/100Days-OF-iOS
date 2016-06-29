@@ -1,0 +1,51 @@
+//
+//  main.m
+//  叫号游戏
+//
+//  Created by 李连宇 on 16/3/23.
+//  Copyright © 2016年 itany. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+#import "Play.h"
+int main(int argc, const char * argv[]) {
+    Play *play = [[Play alloc]init];
+    /*表示游戏中还剩下多少人*/
+    int number = 0;
+    NSLog(@"请输入参与者的总人数：");
+    scanf("%d",&(number));
+    /*给成员变量_number初始化*/
+    play.number = number;
+//    int arr[number];
+    play.arr = (int*)malloc(number*sizeof(int));
+    memset(play.arr, 0, number*sizeof(int));
+    
+    int say = 0;
+    
+    [play show];
+    
+    /*游戏开始*/
+    for (int i = 0; i<play.number; ) {
+        if (play.arr[i]!=-1) {
+            say++;
+            NSLog(@"%d号嘉宾：%d",i,say);
+            if (3==say) {
+                play.arr[i] = -1;
+                say = 0;
+                number--;
+            }
+            
+        }
+        i++;
+        /*叫号一轮后，要从头开始叫号*/
+        if (i==play.number) {
+            i = 0;
+        }
+        if (1==number) {
+            break;
+        }
+        
+    }
+    NSLog(@"最后胜出者为%d 号嘉宾",[play search]);
+    return 0;
+}

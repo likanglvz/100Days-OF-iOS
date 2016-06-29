@@ -1,0 +1,26 @@
+//
+//  Dog.m
+//  多对象的内存管理
+//
+//  Created by 李连宇 on 16/3/28.
+//  Copyright © 2016年 itany. All rights reserved.
+//
+
+#import "Dog.h"
+
+@implementation Dog
+-(void)setNo:(int)no
+{
+    _no = no;
+}
+-(int)no
+{
+    return _no;
+}
+-(void)dealloc
+{
+    
+    NSLog(@"%d号被被主人烹了",self.no);
+    [super dealloc];
+}
+@end

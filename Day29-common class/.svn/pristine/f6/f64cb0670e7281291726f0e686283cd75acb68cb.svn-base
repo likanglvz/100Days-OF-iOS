@@ -1,0 +1,30 @@
+//
+//  main.m
+//  NSArray 的使用
+//
+//  Created by 李连宇 on 16/4/1.
+//  Copyright © 2016年 itany. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+int main(int argc, const char * argv[]) {
+    NSArray *arr;
+    arr = [NSArray arrayWithObjects:@"北京",@"南京",nil];
+    NSLog(@"%@",arr);
+    NSArray *arr0 = @[@"上海",@"天津"];
+        //向数组中添加元素
+    NSArray *arr1 = [arr arrayByAddingObject:@"abc"];
+    for (int i = 0; i<arr1.count; i++) {
+//        NSString *o = [arr1 objectAtIndex:i];
+        NSString *o = arr1[i];
+        NSLog(@"%@",o);
+    }
+    /*返回一个元素在数组中的位置*/
+    NSUInteger index = [arr1 indexOfObject:@"南京"];
+    NSLog(@"%lu",index);
+    
+    arr1 = @[@1,@2,@3];
+    
+    return 0;
+}

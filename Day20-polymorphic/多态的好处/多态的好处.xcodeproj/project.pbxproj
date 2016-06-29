@@ -1,0 +1,256 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18A7DA051C9FCFA400811F06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A7DA041C9FCFA400811F06 /* main.m */; };
+		18A7DA0D1C9FCFC100811F06 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A7DA0C1C9FCFC100811F06 /* Person.m */; };
+		18A7DA101C9FD0A000811F06 /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A7DA0F1C9FD0A000811F06 /* Teacher.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		18A7D9FF1C9FCFA400811F06 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		18A7DA011C9FCFA400811F06 /* 多态的好处 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "多态的好处"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A7DA041C9FCFA400811F06 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18A7DA0B1C9FCFC100811F06 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		18A7DA0C1C9FCFC100811F06 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		18A7DA0E1C9FD0A000811F06 /* Teacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
+		18A7DA0F1C9FD0A000811F06 /* Teacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Teacher.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18A7D9FE1C9FCFA400811F06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18A7D9F81C9FCFA400811F06 = {
+			isa = PBXGroup;
+			children = (
+				18A7DA0E1C9FD0A000811F06 /* Teacher.h */,
+				18A7DA0F1C9FD0A000811F06 /* Teacher.m */,
+				18A7DA0B1C9FCFC100811F06 /* Person.h */,
+				18A7DA0C1C9FCFC100811F06 /* Person.m */,
+				18A7DA031C9FCFA400811F06 /* 多态的好处 */,
+				18A7DA021C9FCFA400811F06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18A7DA021C9FCFA400811F06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18A7DA011C9FCFA400811F06 /* 多态的好处 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18A7DA031C9FCFA400811F06 /* 多态的好处 */ = {
+			isa = PBXGroup;
+			children = (
+				18A7DA041C9FCFA400811F06 /* main.m */,
+			);
+			path = "多态的好处";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18A7DA001C9FCFA400811F06 /* 多态的好处 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18A7DA081C9FCFA400811F06 /* Build configuration list for PBXNativeTarget "多态的好处" */;
+			buildPhases = (
+				18A7D9FD1C9FCFA400811F06 /* Sources */,
+				18A7D9FE1C9FCFA400811F06 /* Frameworks */,
+				18A7D9FF1C9FCFA400811F06 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "多态的好处";
+			productName = "多态的好处";
+			productReference = 18A7DA011C9FCFA400811F06 /* 多态的好处 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18A7D9F91C9FCFA400811F06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = itany;
+				TargetAttributes = {
+					18A7DA001C9FCFA400811F06 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 18A7D9FC1C9FCFA400811F06 /* Build configuration list for PBXProject "多态的好处" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18A7D9F81C9FCFA400811F06;
+			productRefGroup = 18A7DA021C9FCFA400811F06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18A7DA001C9FCFA400811F06 /* 多态的好处 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18A7D9FD1C9FCFA400811F06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A7DA101C9FD0A000811F06 /* Teacher.m in Sources */,
+				18A7DA0D1C9FCFC100811F06 /* Person.m in Sources */,
+				18A7DA051C9FCFA400811F06 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		18A7DA061C9FCFA400811F06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		18A7DA071C9FCFA400811F06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		18A7DA091C9FCFA400811F06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18A7DA0A1C9FCFA400811F06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18A7D9FC1C9FCFA400811F06 /* Build configuration list for PBXProject "多态的好处" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A7DA061C9FCFA400811F06 /* Debug */,
+				18A7DA071C9FCFA400811F06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18A7DA081C9FCFA400811F06 /* Build configuration list for PBXNativeTarget "多态的好处" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18A7DA091C9FCFA400811F06 /* Debug */,
+				18A7DA0A1C9FCFA400811F06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18A7D9F91C9FCFA400811F06 /* Project object */;
+}

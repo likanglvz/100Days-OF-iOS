@@ -1,0 +1,33 @@
+//
+//  main.m
+//  id类型数据的使用
+//
+//  Created by 李康 on 16/3/22.
+//  Copyright © 2016年 李康. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+#import "Person.h"
+
+void test(id d)
+{
+    NSLog(@"传入的参数为%@",d);
+}
+
+int main(int argc, const char * argv[]) {
+    
+    Person *p = [Person new];
+    NSObject *o = [Person new];
+    id d = [Person new];
+    
+    [p setAge:3];
+    p.age = 3;
+    
+//    o.age = 3;错误
+//    [o setAge:3];error
+    
+//    d.age = 3;error
+    [d setAge:3];
+    NSLog(@"age=%d",[d age]);
+    return 0;
+}
