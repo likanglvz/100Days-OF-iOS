@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--声明：xml文件的版本和使用的字符集-->
+<note>
+<!--根元素，只有一个，开始标签和结束标签配对-->
+<!--to，content，from，date是子元素-->
+   <to>亚南同学：</to>
+   <content>今天晚上给你送书，等我</content>
+   <from>亚北</from>
+   <date>2016年5月24日</date>
+<!--   <from/>空元素-->
+</note>
+
+<!--属性：定义在开始标签中，比如<note id='1'>,id='1'是note元素的属性，id是属性名，1是属性的值。属性值必须放入单引号或双引号-->
+
+<!--命名空间，用于解决命名冲突。-->
+<!---->
+<!--<table>-->
+<!--<tr>-->
+<!--    <td>Apples</td>-->
+<!--    <td>Bananas</td>-->
+<!--</tr>-->
+<!--</table>-->
+<!---->
+<!---->
+<!--<table>-->
+<!--<name>coffee table</name>-->
+<!--<width>80</width>-->
+<!--<length>120</lenth>-->
+<!---->
+<!--</table>-->
+<!--<h:table xmlns:h="http://www.xxxx.com/apples.html">-->
+<!--    <h:tr>-->
+<!--        <h:td>Apples</h:td>-->
+<!--        <h:td>Bananas</h:td>-->
+<!--    </h:tr>-->
+<!--</h:table>-->
+<!---->
+<!---->
+<!--<f:table xmlns:h="http://www.xxxx.com/table.html>-->
+<!--    <f:name>coffee table</f:name>-->
+<!--    <f:width>80</f:width>-->
+<!--    <f:length>120</f:lenth>-->
+<!--    -->
+<!--</f:table>-->
+<!---->
+
+
+
+
+
+
+
+
+

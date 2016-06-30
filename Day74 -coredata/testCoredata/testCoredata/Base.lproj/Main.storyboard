@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Person" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MPl-L8-cEQ">
+                                <rect key="frame" x="273" y="28" width="54" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="年龄" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="N6s-5Y-uWt">
+                                <rect key="frame" x="20" y="65" width="560" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="姓名" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oN7-h0-90e">
+                                <rect key="frame" x="20" y="109" width="560" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IDCard" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Byp-vz-xRZ">
+                                <rect key="frame" x="273" y="161" width="53" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="身份证号码" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FSP-8g-e55">
+                                <rect key="frame" x="20" y="206" width="560" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TEH-LA-NRN">
+                                <rect key="frame" x="505" y="280" width="32" height="30"/>
+                                <state key="normal" title="save"/>
+                                <connections>
+                                    <action selector="save:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FTv-Hl-qij"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oFF-uw-Q1q">
+                                <rect key="frame" x="55" y="280" width="30" height="30"/>
+                                <state key="normal" title="查询"/>
+                                <connections>
+                                    <action selector="search:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RlD-cd-57o"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7e3-hq-T1H">
+                                <rect key="frame" x="273" y="280" width="39" height="30"/>
+                                <state key="normal" title="查询2"/>
+                                <connections>
+                                    <action selector="search2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JZH-Qk-jn3"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Byp-vz-xRZ" firstAttribute="top" secondItem="oN7-h0-90e" secondAttribute="bottom" constant="22" id="1Hi-Jr-3iU"/>
+                            <constraint firstItem="N6s-5Y-uWt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="3MO-0r-9tR"/>
+                            <constraint firstItem="FSP-8g-e55" firstAttribute="top" secondItem="Byp-vz-xRZ" secondAttribute="bottom" constant="24" id="8OC-K1-PI2"/>
+                            <constraint firstItem="MPl-L8-cEQ" firstAttribute="centerX" secondItem="N6s-5Y-uWt" secondAttribute="centerX" id="H7J-VW-ZQv"/>
+                            <constraint firstItem="oN7-h0-90e" firstAttribute="top" secondItem="N6s-5Y-uWt" secondAttribute="bottom" constant="14" id="Iiv-23-JFD"/>
+                            <constraint firstItem="N6s-5Y-uWt" firstAttribute="trailing" secondItem="oN7-h0-90e" secondAttribute="trailing" id="Ij4-i9-h7K"/>
+                            <constraint firstItem="N6s-5Y-uWt" firstAttribute="leading" secondItem="oN7-h0-90e" secondAttribute="leading" id="KcN-n2-pej"/>
+                            <constraint firstItem="oFF-uw-Q1q" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="35" id="Me3-kD-2Qh"/>
+                            <constraint firstItem="7e3-hq-T1H" firstAttribute="baseline" secondItem="TEH-LA-NRN" secondAttribute="baseline" id="Qhg-LO-Ysh"/>
+                            <constraint firstItem="N6s-5Y-uWt" firstAttribute="top" secondItem="MPl-L8-cEQ" secondAttribute="bottom" constant="16" id="VEn-iJ-gav"/>
+                            <constraint firstItem="7e3-hq-T1H" firstAttribute="leading" secondItem="Byp-vz-xRZ" secondAttribute="leading" id="WOq-NI-fTc"/>
+                            <constraint firstItem="oFF-uw-Q1q" firstAttribute="baseline" secondItem="7e3-hq-T1H" secondAttribute="baseline" id="WXv-Np-dxk"/>
+                            <constraint firstItem="oFF-uw-Q1q" firstAttribute="top" secondItem="FSP-8g-e55" secondAttribute="bottom" constant="44" id="Xhf-4P-POU"/>
+                            <constraint firstItem="oN7-h0-90e" firstAttribute="trailing" secondItem="FSP-8g-e55" secondAttribute="trailing" id="c4E-xs-iw2"/>
+                            <constraint firstItem="N6s-5Y-uWt" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="cAo-vv-esf"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="TEH-LA-NRN" secondAttribute="trailing" constant="43" id="f5a-4i-0J7"/>
+                            <constraint firstItem="MPl-L8-cEQ" firstAttribute="leading" secondItem="Byp-vz-xRZ" secondAttribute="leading" id="kw2-bf-l02"/>
+                            <constraint firstItem="oN7-h0-90e" firstAttribute="leading" secondItem="FSP-8g-e55" secondAttribute="leading" id="m9g-hM-RfR"/>
+                            <constraint firstItem="MPl-L8-cEQ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="q1y-q8-U75"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="ageField" destination="N6s-5Y-uWt" id="rgL-oR-mkS"/>
+                        <outlet property="cardField" destination="FSP-8g-e55" id="ghy-YZ-dd7"/>
+                        <outlet property="nameField" destination="oN7-h0-90e" id="bVY-Rp-ttx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="336" y="389"/>
+        </scene>
+    </scenes>
+</document>

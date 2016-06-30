@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Notes>
+    <Note id="1">
+        <CDate>2015-11-16</CDate>
+        <Content>下午18点下课</Content>
+        <UserID>bai</UserID>
+    </Note>
+    <Note id="2">
+        <CDate>2015-11-17</CDate>
+        <Content>网络应用xml解析</Content>
+        <UserID>bai</UserID>
+    </Note>
+    <Note id="3">
+        <CDate>2015-11-18</CDate>
+        <Content>网络应用Json解析</Content>
+        <UserID>bai</UserID>
+    </Note>
+    <Note id="4">
+        <CDate>2015-11-19</CDate>
+        <Content>网络应用http</Content>
+        <UserID>bai</UserID>
+    </Note>
+    <Note id="5">
+        <CDate>2015-11-23</CDate>
+        <Content>交作业</Content>
+        <UserID>bai</UserID>
+    </Note>
+    <Note id="6">
+        <CDate>2015-11-24</CDate>
+        <Content>其它</Content>
+        <UserID>bai</UserID>
+    </Note>
+</Notes>
