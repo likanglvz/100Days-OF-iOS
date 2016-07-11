@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="8p4-Ps-WOy">
+                                <rect key="frame" x="290" y="290" width="20" height="20"/>
+                            </activityIndicatorView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bD8-of-fUw">
+                                <rect key="frame" x="277" y="550" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="bigTaskAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="axu-ZX-JuH"/>
+                                </connections>
+                            </button>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="apS-u8-MaF">
+                                <rect key="frame" x="35" y="45" width="531" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="MD4-B7-sdA"/>
+                                </constraints>
+                            </progressView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BlA-Tm-Go8">
+                                <rect key="frame" x="85" y="412" width="41" height="30"/>
+                                <state key="normal" title="signal"/>
+                                <connections>
+                                    <action selector="signal:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oqf-eK-bDp"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="apS-u8-MaF" secondAttribute="trailing" constant="14" id="A6Q-Dg-nnw"/>
+                            <constraint firstItem="8p4-Ps-WOy" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="BlI-Nr-acz"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="BlA-Tm-Go8" secondAttribute="bottom" constant="158" id="DCf-1y-HSd"/>
+                            <constraint firstItem="bD8-of-fUw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EVm-Os-REd"/>
+                            <constraint firstItem="bD8-of-fUw" firstAttribute="centerX" secondItem="8p4-Ps-WOy" secondAttribute="centerX" id="NDe-3L-ha2"/>
+                            <constraint firstItem="BlA-Tm-Go8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="65" id="ZD2-74-0Oh"/>
+                            <constraint firstAttribute="bottom" secondItem="bD8-of-fUw" secondAttribute="bottom" constant="20" symbolic="YES" id="de8-fv-MBm"/>
+                            <constraint firstItem="apS-u8-MaF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="15" id="epW-CT-FcN"/>
+                            <constraint firstItem="apS-u8-MaF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="15" id="fSh-AR-iea"/>
+                            <constraint firstItem="apS-u8-MaF" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="25" id="isj-xs-ALa"/>
+                            <constraint firstItem="apS-u8-MaF" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="25" id="y2E-E3-esP"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="myAcitivtyIndicator" destination="8p4-Ps-WOy" id="jXn-i6-byt"/>
+                        <outlet property="myProgressView" destination="apS-u8-MaF" id="996-Ij-eJp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="336" y="294"/>
+        </scene>
+    </scenes>
+</document>
