@@ -13,4 +13,6 @@ The code is what I practice when learning C, which covers the basic knowledge of
 <br>[use of common class](https://github.com/likanglvz/ios-learn/tree/master/Day29-common%20class)
 
 ##day32-day100 the lesson of iOS
+![](http://i1.piimg.com/567571/0978d67df28da50f.png)
+
 
